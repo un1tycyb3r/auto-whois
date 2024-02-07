@@ -9,7 +9,7 @@ Tool takes an input file of apex domains and a string of regex to egrep for your
 ```./whois.sh apex.domains "Ford Motor Company"```
 
 ```
-➜  ~ go run tools/automation/domains.go | tr '[:upper:]' '[:lower:]' | anew apex.txt; ./whois.sh apex.txt "Ford Motor Company"
+➜  ~ ./whois.sh apex.txt "Ford Motor Company"
 ford.com
 dealerconnection.com
 forddrive.com
